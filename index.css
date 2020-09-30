@@ -12,11 +12,11 @@
     top: 0px;
     position: sticky;
     z-index: 10;
+    padding: 1rem;
 }
 
 .bag>img{
-    height: 1.3em;
-    padding: 1rem;
+    height: 1.3rem;
     cursor: pointer;
 }
 
@@ -114,13 +114,14 @@
 .base-p1{
     background-color: #BEB8B8;
     height: inherit;
+    font-size: 0;
 }
 
 .cntr{
     width: 100%;
     height: auto;
     position: relative;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     font-size: 0;
 }
 
@@ -136,6 +137,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 1.5rem;
 }
 
 .halloween>img{
@@ -168,7 +170,58 @@
     margin-top: 3rem;
 }
 
+.haunted-castle>img{
+    width: 11.5rem;
+    margin-top: -3.8rem;
+    margin-left: 2rem;
+}
+
+.bat-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.bat{
+    margin-left: 30rem;
+    margin-bottom: -5rem;
+    margin-top: -8rem;
+}
+
+.bat>img{
+    width: 20rem;
+    z-index: 2;
+    position: relative;
+}
+
+.ghost{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 7.5rem;
+    margin-bottom: -13rem;
+    margin-right: 2rem;
+}
+
+.ghost>img{
+    width: 10rem;
+    z-index: 2;
+    position: relative;
+}
+
 /* end of p1 */
+
+/* p2 */
+.base-p2{
+    font-size: 0;
+}
+
+.ly5{
+    font-size: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: -4rem;
+}
+/* end of p2 */
 
 
 
