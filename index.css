@@ -348,7 +348,89 @@
 /* end of p3 */
 
 /* p4 */
+.base-p4{
+    background-color: #F0EEE6;
+}
 
+.ly7{
+    font-size: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.sun>img{
+    width: 16rem;
+}
+
+.sun{
+    margin-left: -30rem;
+    margin-top: -3rem;
+}
+
+.sun-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.sun-cont>div{
+    position: absolute;
+}
+
+.p4-font{
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: pool;
+    margin-top: 2rem;
+}
+
+.p4-p{
+    color: red;
+}
+
+.p4-o{
+    color: #FF6B00;
+}
+
+.p4-o2{
+    color: #FF7A00;
+}
+
+.p4-l{
+    color: #FFF500;
+}
+
+
+.p4-font2{
+    font-family: pool;
+    width: 40rem;
+    text-align: center;
+    border-style: solid;
+    border-color: #FF8400;
+    background-color: white;
+    font-size: 1.2rem;
+    color: #75CDC8;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+.p4-conf{
+    font-family: pool;
+    width: 40rem;
+    text-align: center;
+    border-style: solid;
+    border-color: #FF8400;
+    background-color: white;
+    font-size: 1.2rem;
+    color: #75CDC8;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-bottom: -6rem;
+    margin-left: -1.6rem;
+    height: 5rem;
+}
 
 /* end of p4 */
 
@@ -370,6 +452,11 @@
 @font-face{
     font-family: rock;
     src: url(./Assets/p3/anonymous-pro.regular.ttf);
+}
+
+@font-face{
+    font-family: pool;
+    src: url(./Assets/p4/BalooTamma-Regular.ttf);
 }
 
 /* end of font face */
