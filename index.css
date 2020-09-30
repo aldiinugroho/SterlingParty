@@ -113,7 +113,7 @@
 /* p1 */
 .base-p1{
     background-color: #BEB8B8;
-    height: inherit;
+    /* height: inherit; */
     font-size: 0;
 }
 
@@ -147,7 +147,7 @@
 .p1font{
     font-family: halloween;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .p1font-1{
@@ -221,7 +221,107 @@
     overflow: hidden;
     margin-top: -4rem;
 }
+
+.casual>img{
+    width: 35rem;
+}
+
+.casual-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.casual{
+    font-family: casual;
+    width: 30rem;
+    text-align: center;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.lamp{
+    margin-top: -15rem;
+}
+
+.lamp>img{
+    width: 18rem;
+}
+
+.clothes{
+    margin-top: -12rem;
+    margin-left: 8rem;
+    z-index: 2;
+    position: relative;
+}
+
+.clothes>img{
+    width: 14rem;
+}
+
 /* end of p2 */
+
+/* p3 */
+.base-p3{
+    background-color: #DFCF37;
+    font-size: 0;
+}
+
+.cntr-p3{
+    margin-top: -6.7rem;
+}
+
+.ly6{
+    font-size: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.rock-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+.rock-font{
+    font-family: rock;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 30rem;
+    line-height: 1.8rem;
+    align-self: center;
+}
+
+.rock>img{
+    width: 35rem;
+}
+
+.p3-font1{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding-right: 0.5rem;
+    padding-left: 0.2rem;
+}
+
+.p3-font2{
+    background-color: white;
+    font-weight: bold;
+    padding-left: 0.2rem;
+    padding-bottom: 0.4rem;
+}
+
+.p3-font3{
+    font-weight: bold;
+    color: red;
+}
+
+/* end of p3 */
+
+
 
 
 
@@ -230,6 +330,16 @@
 @font-face{
     font-family: halloween;
     src: url(./Assets/p1/spectral.light.ttf);
+}
+
+@font-face{
+    font-family: casual;
+    src: url(./Assets/p2/abhaya-libre.regular.ttf);
+}
+
+@font-face{
+    font-family: rock;
+    src: url(./Assets/p3/anonymous-pro.regular.ttf);
 }
 
 /* end of font face */
