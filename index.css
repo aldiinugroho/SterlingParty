@@ -2,7 +2,7 @@
 
 
 .base{
-    height: 64rem;
+    height: 63rem;
     background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
     z-index: 0;
     position: relative;
@@ -15,7 +15,7 @@
 }
 
 .bag>img{
-    height: 1.8em;
+    height: 1.3em;
     padding: 1rem;
     cursor: pointer;
 }
@@ -121,6 +121,7 @@
     height: auto;
     position: relative;
     align-items: flex-end;
+    font-size: 0;
 }
 
 .ly4{
@@ -129,3 +130,53 @@
     height: auto;
     overflow: hidden;
 }
+
+.halloween-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.halloween>img{
+    width: 40rem;
+}
+
+.p1font{
+    font-family: halloween;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.p1font-1{
+    font-family: halloween;
+    font-weight: bold;
+    color: red;
+}
+
+.p1font-2{
+    font-family: halloween;
+    font-weight: bold;
+    color: #FFB800;
+}
+
+.p1font-cont{
+    width: 30rem;
+    height: auto;
+    align-self: center;
+    margin-left: -25rem;
+    margin-top: 3rem;
+}
+
+/* end of p1 */
+
+
+
+/* font face */
+
+@font-face{
+    font-family: halloween;
+    src: url(./Assets/p1/spectral.light.ttf);
+}
+
+/* end of font face */
