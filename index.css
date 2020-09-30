@@ -264,7 +264,7 @@
 
 /* p3 */
 .base-p3{
-    background-color: #DFCF37;
+    background-color: #D7C641;
     font-size: 0;
 }
 
@@ -282,8 +282,9 @@
 .rock-cont{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 3.5rem;
+    margin-top: 6.5rem;
 }
 
 .rock-font{
@@ -319,8 +320,37 @@
     color: red;
 }
 
+.planet-cont{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -11rem;
+    margin-right: 2rem;
+}
+
+.planet>img{
+    width: 9rem;
+}
+
+.alien>img{
+    width: 15rem;
+    margin-bottom: -12rem;
+    z-index: 2;
+    position: relative;
+}
+
+.alien-cont{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -7rem;
+
+}
+
 /* end of p3 */
 
+/* p4 */
+
+
+/* end of p4 */
 
 
 
