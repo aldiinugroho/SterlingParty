@@ -1,0 +1,52 @@
+/* main */
+
+
+.base{
+    height: 40rem;
+    background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
+}
+
+.bag>img{
+    height: 1.8em;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.imgrz{
+    position: relative;
+    height: 3rem;
+    margin: 15rem;
+    margin-top: 6rem;
+
+}
+
+.imgrz>div>img{
+    height: 3rem;
+    position: absolute;
+}
+    /* child of imgrz */
+    .getp{
+        position: absolute;
+        margin-top: 5rem;
+    }
+
+    .whatp{
+        position: absolute;
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+
+    .youp{
+        position: absolute;
+        margin-left: 13rem;
+        margin-top: 1rem;
+    }
+
+    .wantp{
+        position: absolute;
+        margin-left: 19rem;
+    }
+
+
+
+/* end of main */
