@@ -2,7 +2,7 @@
 
 
 .base{
-    height: 60rem;
+    height: 64rem;
     background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
     z-index: 0;
     position: relative;
@@ -84,7 +84,14 @@
     z-index: 1;
 }
 
+.castle{
+    margin-left: 19rem;
+    margin-top: -0.3rem;
+}
 
+.castle>img{
+    width: 18rem;
+}
 
 .boat>div>img{
     width: 3rem;
@@ -96,3 +103,23 @@
 }
 
 /* end of main */
+
+/* p1 */
+.base-p1{
+    background-color: #BEB8B8;
+    height: inherit;
+}
+
+.cntr{
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-items: flex-end;
+}
+
+.ly4{
+    font-size: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
