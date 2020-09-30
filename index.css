@@ -2,8 +2,10 @@
 
 
 .base{
-    height: 40rem;
+    height: 60rem;
     background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
+    z-index: 0;
+    position: relative;
 }
 
 .bag>img{
@@ -46,6 +48,18 @@
         position: absolute;
         margin-left: 19rem;
     }
+    /* end of child */
+
+.logo-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8rem;
+}
+
+.logo-cont>div>img{
+    height: 8rem;
+}
 
 
 
