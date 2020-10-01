@@ -18,6 +18,13 @@
     z-index: 1;
 }
 
+.slogan-i{
+    margin-left: -65rem;
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+}
+
 .bags{
     top: 0px;
     position: sticky;
@@ -609,6 +616,17 @@
 
 /* order page */
 
+input:focus, select:focus{
+    outline: none;
+}
+
+ui-select{width: inherit}
+select::-ms-expand {display: none;}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
 .order{
     padding: 2rem;
     position: relative;
@@ -623,17 +641,6 @@
     margin-top: -3rem;
 }
 
-input:focus, select:focus{
-    outline: none;
-}
-
-ui-select{width: inherit}
-select::-ms-expand {display: none;}
-select{
-    -webkit-appearance: none;
-    appearance: none;
-}
-
 .order-s>select{
     color: black;
     background-color: rgba(237, 239, 150, 1);
@@ -646,10 +653,6 @@ select{
     font-family: roboto;
     margin: 0.4rem;
     font-size: 0.7rem;
-}
-
-option{
-    font-family: roboto;
 }
 
 .order>div>input{
@@ -829,6 +832,7 @@ option{
     .slogan{
         display: none;
     }
+
     .bag{
         height: 1rem;
     }
@@ -845,11 +849,6 @@ option{
         margin-left: 0rem;
     }
 
-    .order{
-        margin-left: 0rem;
-        margin-top: -3rem;
-    }
-
     .boat{
         margin-right: -2rem;
         margin-top: 20rem;
@@ -862,6 +861,7 @@ option{
         height: 1rem;
     }
 
+    /* change */
     .ticket>input{
         width: 10rem;
         font-size: 0.6rem;
@@ -878,7 +878,232 @@ option{
         font-size: 0.7rem;
         padding-bottom: 0.4rem;
     }
+    /* end of change */
+
+    /* order page */
+    .order{
+        width: 12.5rem;
+        border-radius: 10px;
+        margin-left: 0rem;
+        margin-top: -3rem;
+    }
+    
+    .order-s>select{
+        width: 12rem;
+        height: 1.3rem;
+        padding-left: 0.8rem;
+        margin: 0.4rem;
+        font-size: 0.6rem;
+    }
+    
+    .order>div>input{
+        width: 11rem;
+        height: 1.3rem;
+        border-radius: 5px;
+        padding-left: 1rem;
+        margin: 0.4rem;
+        font-size: 0.6rem;
+    }
+    
+    .acpt{
+        font-size: 0.75rem;
+    }
+    
+    .acpt>div{
+        padding: 0.2rem;
+    }
+    
+    .btn-order{
+        text-align: center;
+        padding-top: 0.7rem;
+        margin-bottom: -0.96rem;
+    }
+    
+    .btn-order>button{
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 1.4rem;
+    }
+    /* end of order page */
 
 }
 
 /* end of order size */
+
+/* index */
+@media screen and (max-width: 1445px) {
+    .ghost{
+        margin-top: 31.5rem;
+        margin-left: 55rem;
+    }
+
+    .flamingo>img{
+        width: 26rem;
+        margin-top: 8.820rem;
+        margin-left: -35rem;
+    }
+
+    .haunted-castle{
+        margin-top: 21.5rem;
+        margin-right: 60rem;
+    }
+
+    .alien{
+        margin-top: -27rem;
+        margin-right: -65rem;
+    }
+
+    .ball>img{
+        margin-top: 14rem;
+        margin-left: 55rem;
+        position: relative;
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+
+    /* slogan */
+    .getp{
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+
+    .whatp{
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: 3rem;
+    }
+
+    .youp{
+        position: absolute;
+        margin-left: 23rem;
+        margin-top: 1rem;
+    }
+
+    .wantp{
+        position: absolute;
+        margin-left: 29rem;
+    }
+    /* end of slogan */
+
+    .ghost{
+        margin-top: 31.5rem;
+        margin-left: 55rem;
+    }
+
+    .flamingo>img{
+        width: 26rem;
+        margin-top: 8.820rem;
+        margin-left: -35rem;
+    }
+
+    .haunted-castle{
+        margin-top: 21.5rem;
+        margin-right: 60rem;
+    }
+
+    .alien{
+        margin-top: -27rem;
+        margin-right: -55rem;
+    }
+
+    .ball>img{
+        margin-top: 14rem;
+        margin-left: 55rem;
+        position: relative;
+        width: 22rem;
+    }
+
+    .casual>img{
+        width: 30rem;
+    }
+
+    .lamp{
+        margin-top: -22rem;
+        margin-left: -56rem;
+    }
+
+    .clothes{
+        margin-top: -18rem;
+        margin-left: -41rem;
+    }
+
+    .planet{
+        margin-right: -55rem;
+        margin-top: -5rem;
+    }
+
+
+}
+
+/* @media screen and (max-width: 1070px) {
+    
+    .getp{
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+
+    .whatp{
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: 3rem;
+    }
+
+    .youp{
+        position: absolute;
+        margin-left: 23rem;
+        margin-top: 1rem;
+    }
+
+    .wantp{
+        position: absolute;
+        margin-left: 29rem;
+    }
+
+    .casual>img{
+        width: 30rem;
+    }
+    
+    .planet{
+        margin-right: -65rem;
+        margin-top: -5rem;
+    }
+
+    .ghost{
+        margin-top: 42.8rem;
+        margin-left: 45rem;
+    }
+
+    .flamingo>img{
+        width: 26rem;
+        margin-top: 8.820rem;
+        margin-left: -35rem;
+    }
+
+    .haunted-castle{
+        margin-top: 21.5rem;
+        margin-right: 60rem;
+    }
+
+    .alien{
+        margin-top: -27rem;
+        margin-right: -65rem;
+    }
+
+    .ball>img{
+        margin-top: 14rem;
+        margin-left: 55rem;
+        position: relative;
+        width: 22rem;
+    }
+
+    .lamp{
+        margin-top: -26rem;
+        margin-left: -76rem;
+    } */
+}
+
+/* end of index */
