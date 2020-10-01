@@ -1,8 +1,8 @@
 /* main */
 
 .overall{
+    align-content: center;
     background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
-    background-color: rgb(238, 140, 142);
 }
 
 .base{
@@ -12,18 +12,22 @@
 }
 
 .slogan{
+    margin-left: -65rem;
     margin-top: -5rem;
+    position: relative;
+    z-index: 1;
 }
 
-.bag{
+.bags{
     top: 0px;
     position: sticky;
     z-index: 10;
     padding: 1rem;
+    margin-top: -5rem;
 }
 
-.bag>img{
-    height: 1.3rem;
+.bag{
+    height: 1.4rem;
     cursor: pointer;
 }
 
@@ -66,8 +70,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -8rem;
-    margin-bottom: 1.5rem;
+    margin-top: 12rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .logo-cont>div>img{
@@ -80,6 +84,8 @@
     height: auto;
     justify-content: center;
     justify-self: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .l2n3{
@@ -90,16 +96,17 @@
 }
 
 .boat{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
+    position: relative;
     z-index: 1;
+    margin-right: -80rem;
+    margin-top: 22rem;
 }
 
 .castle{
-    margin-left: 19rem;
-    margin-top: -0.3rem;
+    position: absolute;
+    margin-left: -88rem;
+    margin-top: 25rem;
+    z-index: 1;
 }
 
 .castle>img{
@@ -115,6 +122,17 @@
     position: absolute;
 }
 
+.main-vec{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 7rem;
+}
+
+.main-vec>div{
+    position: absolute;
+}
+
 /* end of main */
 
 /* p1 */
@@ -122,6 +140,7 @@
     background-color: #BEB8B8;
     /* height: inherit; */
     font-size: 0;
+    position: relative;
 }
 
 .cntr{
@@ -142,10 +161,13 @@
 .halloween-cont{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 1.5rem;
+    padding-bottom: 14.5rem;
+    margin-bottom: 1rem;
 }
+
 
 .halloween>img{
     width: 40rem;
@@ -173,14 +195,29 @@
     width: 30rem;
     height: auto;
     align-self: center;
-    margin-left: -25rem;
+    margin-left: 6rem;
     margin-top: 3rem;
+}
+
+.hall-vec{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hall-vec>div{
+    position: absolute;
+}
+
+.haunted-castle{
+    margin-top: 21.5rem;
+    margin-right: 80rem;
+    position: relative;
+    z-index: 0;
 }
 
 .haunted-castle>img{
     width: 11.5rem;
-    margin-top: -2.8rem;
-    margin-left: 2rem;
 }
 
 .bat-cont{
@@ -201,11 +238,8 @@
 }
 
 .ghost{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 7.5rem;
-    margin-bottom: -13rem;
-    margin-right: 2rem;
+    margin-top: 31.5rem;
+    margin-left: 70rem;
 }
 
 .ghost>img{
@@ -219,6 +253,7 @@
 /* p2 */
 .base-p2{
     font-size: 0;
+    position: relative;
 }
 
 .ly5{
@@ -250,7 +285,8 @@
 }
 
 .lamp{
-    margin-top: -15rem;
+    margin-top: -26rem;
+    margin-left: -76rem;
 }
 
 .lamp>img{
@@ -258,10 +294,8 @@
 }
 
 .clothes{
-    margin-top: -12rem;
-    margin-left: 8rem;
-    z-index: 2;
-    position: relative;
+    margin-top: -21rem;
+    margin-left: -62rem;
 }
 
 .clothes>img{
@@ -274,6 +308,8 @@
 .base-p3{
     background-color: #D7C641;
     font-size: 0;
+    position: relative;
+    z-index: 2;
 }
 
 .cntr-p3{
@@ -285,6 +321,23 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    position: relative;
+}
+
+.vec{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -4rem;
+}
+
+.vec>div{
+    position: absolute;
+}
+
+.planet{
+    margin-right: -65rem;
+    margin-top: -5rem;
 }
 
 .rock-cont{
@@ -337,6 +390,11 @@
 
 .planet>img{
     width: 9rem;
+}
+
+.alien{
+    margin-top: -27rem;
+    margin-right: -75rem;
 }
 
 .alien>img{
@@ -493,7 +551,7 @@
 
 .footer>div{
     font-size: 1rem;
-    background-color: rgb(238, 140, 142);
+    background-color: rgb(255, 134, 139);
     position: relative;
 }
 
@@ -517,10 +575,10 @@
 }
 
 .flamingo>img{
-    width: 24rem;
+    width: 28rem;
     position: relative;
     z-index: 0;
-    margin-top: 7.489rem;
+    margin-top: 7.220rem;
     margin-left: -46rem;
 }
 
@@ -528,16 +586,116 @@
     width: 20rem;
     position: relative;
     z-index: 2;
-    margin-top: 19.5rem;
+    margin-top: 20.5rem;
     margin-left: 45rem;
 }
 
 .cs-bg{
     background-color: white;
+    margin-top: -1rem;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 10rem;
 }
 
 /* end of p4 */
 
+/* order page */
+
+.order{
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    background-color: rgba(120, 226, 207, 0.73);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 57rem;
+    margin-top: -3rem;
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+ui-select{width: inherit}
+select::-ms-expand {display: none;}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.order-s>select{
+    color: black;
+    background-color: rgba(237, 239, 150, 1);
+    border: none;
+    width: 16rem;
+    height: 1.4rem;
+    border-radius: 5px;
+    padding-left: 0.8rem;
+    font-weight: bold;
+    font-family: roboto;
+    margin: 0.4rem;
+}
+
+option{
+    font-family: roboto;
+}
+
+.order>div>input{
+    color: black;
+    background-color: rgba(237, 239, 150, 1);
+    border: none;
+    width: 15rem;
+    height: 1.4rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+    font-weight: bold;
+    font-family: roboto;
+    margin: 0.4rem;
+}
+
+.acpt{
+    display: flex;
+    flex-direction: row;
+    font-family: roboto;
+    font-size: 0.85rem;
+    align-self: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.acpt>div{
+    padding: 0.3rem;
+}
+
+.btn-order{
+    text-align: center;
+    padding-top: 0.7rem;
+    margin-bottom: -0.96rem;
+}
+
+.btn-order>button{
+    border: none;
+    cursor: pointer;
+    background-color:rgba(255, 172, 48, 1);
+    font-size: 1rem;
+    font-family: roboto;
+    border-radius: 5px;
+    color: black;
+    width: 6rem;
+    height: 1.5rem;
+    outline: none;
+    font-weight: bold;
+}
+
+select{
+    font-family: roboto;
+}
+
+/* end of order page */
 
 
 
@@ -562,5 +720,11 @@
     font-family: pool;
     src: url(./Assets/p4/BalooTamma-Regular.ttf);
 }
+
+@font-face{
+    font-family: roboto;
+    src: url(./Assets/main/roboto.light.ttf);
+}
+
 
 /* end of font face */
