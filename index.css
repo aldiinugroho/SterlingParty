@@ -674,6 +674,7 @@ option{
     align-self: center;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
+    font-weight: bold;
 }
 
 .acpt>div{
@@ -779,6 +780,105 @@ option{
     font-family: roboto;
     src: url(./Assets/main/roboto.light.ttf);
 }
-
-
 /* end of font face */
+
+
+/* order size */
+@media screen and (max-width: 1470px){
+
+    .castle{
+        margin-left: -38rem;
+    }
+
+    .change-p{
+        margin-left: -25rem;
+    }
+
+    .order{
+        margin-left: 47rem;
+        margin-top: -3rem;
+    }
+
+    .boat{
+        margin-right: -40rem;
+        margin-top: 22rem;
+    }
+
+}
+
+@media screen and (max-width: 1160px){
+
+    .castle{
+        margin-left: -0rem;
+    }
+
+    .change-p{
+        margin-left: 0rem;
+    }
+
+    .order{
+        margin-left: 0rem;
+        margin-top: -3rem;
+    }
+
+    .boat{
+        margin-right: -30rem;
+        margin-top: 22rem;
+    }
+
+    .slogan{
+        display: none;
+    }
+    .bag{
+        height: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 660px){
+
+    .castle{
+        margin-left: -0rem;
+    }
+
+    .change-p{
+        margin-left: 0rem;
+    }
+
+    .order{
+        margin-left: 0rem;
+        margin-top: -3rem;
+    }
+
+    .boat{
+        margin-right: -2rem;
+        margin-top: 20rem;
+    }
+
+    .slogan{
+        display: none;
+    }
+    .bag{
+        height: 1rem;
+    }
+
+    .ticket>input{
+        width: 10rem;
+        font-size: 0.6rem;
+    }
+    
+    .btn-ch>button{
+        font-size: 0.6rem;
+        width: 4rem;
+        margin-left: 1rem;
+    }
+    
+    .change-info{
+        width: 20rem;
+        font-size: 0.7rem;
+        padding-bottom: 0.4rem;
+    }
+
+}
+
+/* end of order size */
