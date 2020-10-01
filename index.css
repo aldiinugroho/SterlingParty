@@ -1,11 +1,18 @@
 /* main */
 
+.overall{
+    background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
+    background-color: rgb(238, 140, 142);
+}
 
 .base{
-    height: 63rem;
-    background-image: linear-gradient(rgba(166, 246, 250, 0.802), rgb(194, 236, 238), rgb(248, 224, 165));
+    height: 53.5em;
     z-index: 0;
     position: relative;
+}
+
+.slogan{
+    margin-top: -5rem;
 }
 
 .bag{
@@ -21,11 +28,10 @@
 }
 
 .imgrz{
-    position: relative;
+    /* position: relative; */
     height: 3rem;
     margin: 15rem;
-    margin-top: 6rem;
-
+    margin-top: 7rem;
 }
 
 .imgrz>div>img{
@@ -72,7 +78,8 @@
     font-size: 0;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    justify-content: center;
+    justify-self: center;
 }
 
 .l2n3{
@@ -172,7 +179,7 @@
 
 .haunted-castle>img{
     width: 11.5rem;
-    margin-top: -3.8rem;
+    margin-top: -2.8rem;
     margin-left: 2rem;
 }
 
@@ -220,6 +227,7 @@
     height: auto;
     overflow: hidden;
     margin-top: -4rem;
+    position: absolute;
 }
 
 .casual>img{
@@ -524,6 +532,9 @@
     margin-left: 45rem;
 }
 
+.cs-bg{
+    background-color: white;
+}
 
 /* end of p4 */
 
