@@ -1527,7 +1527,7 @@ select{
 
     .haunted-castle{
         margin-top: 28.5rem;
-        margin-right: 42rem;
+        margin-right: 22rem;
     }
 
     .alien{
@@ -1918,7 +1918,7 @@ select{
 
     .ghost{
         margin-top: 29.4rem;
-        margin-left: 9.4rem;
+        margin-left: 7.8rem;
     }
 
     .flamingo>img{
@@ -1928,6 +1928,7 @@ select{
     }
 
     .haunted-castle{
+        display: none;
         margin-top: 28.5rem;
         margin-right: 42rem;
     }
