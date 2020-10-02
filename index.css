@@ -569,7 +569,9 @@
     justify-content: center;
 }
 
-.footer-1>div{
+.footer-1>div, .link{
+    color: black;
+    text-decoration: none;
     background-color: rgb(236, 200, 200);
     padding: 0.1rem;
     padding-left: 1rem;
@@ -1445,7 +1447,7 @@ select{
         position: relative;
     }
 
-    .footer-1>div{
+    .footer-1>div, .link{
         background-color: rgb(236, 200, 200);
         padding: 0.1rem;
         padding-left: 1rem;
@@ -1628,7 +1630,7 @@ select{
         position: relative;
     }
 
-    .footer-1>div{
+    .footer-1>div, .link{
         background-color: rgb(236, 200, 200);
         padding: 0.1rem;
         padding-left: 1rem;
@@ -1840,7 +1842,7 @@ select{
         position: relative;
     }
 
-    .footer-1>div{
+    .footer-1>div, .link{
         background-color: rgb(236, 200, 200);
         padding: 0.1rem;
         padding-left: 1rem;
@@ -2036,7 +2038,7 @@ select{
         position: relative;
     }
 
-    .footer-1>div{
+    .footer-1>div, .link{
         background-color: rgb(236, 200, 200);
         padding: 0.1rem;
         padding-left: 1rem;
