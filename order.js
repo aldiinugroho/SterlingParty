@@ -44,6 +44,12 @@ function register() {
 
     // contact validation
     var charac = /^[A-Za-z]+$/;
+
+    if(vcontact.value === "") {
+        verror.innerText = "'Contact cannot be empty'";
+        return false;
+    }
+
     if(vcontact.value.match(charac)){
         verror.innerText = "'Contact cannot be characters'";
         return false;
