@@ -618,6 +618,12 @@
 
 /* order page */
 
+.error-conf{
+    color: red;
+    font-family: rock;
+    font-size: 0.7rem;
+}
+
 .back-reg{
     background-color: rgba(232, 198, 150, 1);
     position: relative;

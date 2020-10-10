@@ -23,26 +23,29 @@
                 <div class="main-vec">
                     <!-- boat -->
                     <div class="menu-order">
-                        <form class="order" action="./index.html" method="post">
-                            <div><input type="text" placeholder="Name"></div>
-                            <div><input type="text" placeholder="Contact"></div>
-                            <div><input type="text" placeholder="Address"></div>
-                            <div><input type="date"></div>
+                        <form class="order" action="" method="post" onsubmit="return register()">
+                            <div><input type="text" placeholder="Name" id="name"></div>
+                            <div><input type="text" placeholder="Contact" id="contact"></div>
+                            <div><input type="text" placeholder="Address" id="address"></div>
+                            <div><input type="date" id="date"></div>
                             <div class="order-s">
-                                <select class="opt-font">
-                                    <option selected disabled>Event theme</option>
+                                <select class="opt-font" id="theme">
+                                    <option selected value="null">Event theme</option>
                                     <option value="Casual">Casual</option>
                                     <option value="Halloween">Halloween</option>
                                     <option value="Pool">Pool</option>
                                     <option value="Rock">Rock</option>
+                                    <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <div><input type="text" placeholder="Additional themes"></div>
+                            <div><input type="text" placeholder="Additional themes" id="additional"></div>
                 
                             <div class="acpt">
                                 <div><input type="checkbox" name="acc" id="acc"></div>
                                 <div><p>Agree to terms and conditions</p></div>
                             </div>
+
+                            <div class="error-conf" id="errors"></div>
                 
                             <div class="btn-order"><button>Register</button></div>
                 
@@ -119,6 +122,6 @@
     
     </div>
 
-    <script src="login.js"></script>
+    <script src="order.js"></script>
 </body>
 </html>
