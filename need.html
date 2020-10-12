@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sterling Party</title>
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./create.css">
+    <link rel="stylesheet" href="./change.css">
     <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./need.css">
 </head>
 <style>
     *{
@@ -19,18 +20,18 @@
         <a href="./index.html"><img class="bag" src="./Assets/main/x.png" alt="bag"></a>
     </div> -->
 
-
     <div class="header-cont">
         <div class="header">
-            <div class="home-d"><a href="./home.html"><p>Home</p></a></div>
-            <div class="history-d"><a href="./history.html"><p>History</p></a></div>
+            <div class="home-d-a"><a href="./home.html"><p>Back</p></a></div>
+            <!-- <div class="history-d"><a href=""><p>History</p></a></div>
             <div class="create-d"><a href="./create.html"><p>Create event now</p></a></div>
-            <div class="need-d"><a href="./need.html"><p>Need something ?</p></a></div>
+            <div class="need-d"><a href=""><p>Need something ?</p></a></div> -->
         </div>
         <div>
-            <div class="logout-conf"><a href="./index.html"><p>Logout</p></a></div>
+            <div class="logout-conf"><a href="./cart"><img class="bag" src="./Assets/main/bag.png" alt="bag"></a></div>
         </div>
     </div>
+
 
     <div class="overall">
         <!-- main -->
@@ -38,7 +39,7 @@
             <div class="base">
                 <div class="main-vec">
                     <!-- boat -->
-                    <div class="menu-order">
+                    <!-- <div class="menu-order">
                         <form class="order" action="" method="post" onsubmit="return register()">
                             <div><input type="text" placeholder="Name" id="name"></div>
                             <div><input type="text" placeholder="Contact" id="contact"></div>
@@ -55,26 +56,6 @@
                                 </select>
                             </div>
                             <div><input type="text" placeholder="Additional themes" id="additional"></div>
-
-
-                            <div><input placeholder="The number of guests" type="number" name="count" id="count"></div>
-
-                            <div class="condi-conf">
-                                <p>*The total price you get will be based on the number of invited guests</p>
-                            </div>
-
-                            <div class="total-conf">
-                                <p>Rp -</p>
-                            </div>
-
-                            <div class="order-s">
-                                <select class="opt-font" id="theme">
-                                    <option selected value="null">Payment type</option>
-                                    <option value="Debit">Debit</option>
-                                </select>
-                            </div>
-
-
                 
                             <div class="acpt">
                                 <div><input type="checkbox" name="acc" id="acc"></div>
@@ -83,17 +64,14 @@
 
                             <div class="error-conf" id="errors"></div>
                 
-                            <div class="sbmt-conf-1">
-                                <div class="btn-order-create"><button>Register</button></div>
-                                <div><a class="req-conf" href="">Request assistance ?</a></div>
-                            </div>
+                            <div class="btn-change"><button>Change</button></div>
                 
                         </form>
-                    </div>
+                    </div> -->
 
-                    <!-- change plans
-                    <div>
-                        <form class="change-p" action="./change.html" method="post">
+                    <!-- change plans -->
+                    <!-- <div>
+                        <form class="change-p" action="" method="post">
                             <div class="change-info"><p>Want to change the plans ? enter the ticket number and our customer service
                                 will contact you directly.
                             </p></div>
@@ -103,6 +81,54 @@
                             </div>
                         </form>
                     </div> -->
+
+                    <div>
+                        <div class="item-sell-cont">
+                            <div>
+                                <div class="detail-item-conf">
+                                    <div class="item-foto-cont">
+                                        <div><img src="./Assets/main/pop.jpg" alt="popper"></div>
+                                    </div>
+
+                                    <div class="detail-conf-text">
+                                        <div><p>Party popper</p></div>
+                                        <div>Rp 15.000</div>
+                                        <div>
+                                        <form class="amount-cont" action="" method="post">
+                                            <div><p>Amount :</p></div>
+                                            <div><input type="number" name="amount" id="amount"></div>
+                                            <div><button>Add</button></div>
+                                        </form>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="detail-item-conf">
+                                    <div class="item-foto-cont">
+                                        <div><img src="./Assets/main/glass.jpg" alt="glass"></div>
+                                    </div>
+                                    
+                                    <div class="detail-conf-text">
+                                        <div><p>Terrarium glass</p></div>
+                                        <div>Rp 350.000</div>
+                                        <div>
+                                        <form class="amount-cont" action="" method="post">
+                                            <div><p>Amount :</p></div>
+                                            <div><input type="number" name="amount" id="amount"></div>
+                                            <div><button>Add</button></div>
+                                        </form>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- end item -->
+                            
+                        </div>
+                    </div>
 
                     <div class="boat">
                         <div><img src="./Assets/main/boat.png" alt="boat"></div>
