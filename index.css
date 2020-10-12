@@ -427,9 +427,8 @@
     position: relative;
 }
 
-.cntr-p4{
-    /* position: absolute; */
-}
+/* .cntr-p4{
+} */
 
 .ly7{
     font-size: 0;
@@ -652,7 +651,8 @@ select{
     text-align: center;
     border-radius: 10px;
     margin-left: 57rem;
-    margin-top: -3rem;
+    margin-top: 2rem;
+    z-index: 10;
 }
 
 .order-s>select{
@@ -701,7 +701,7 @@ select{
 .btn-order{
     text-align: center;
     padding-top: 0.7rem;
-    margin-bottom: -0.96rem;
+    padding: -0.96rem;
 }
 
 .btn-order>button{
@@ -716,6 +716,51 @@ select{
     height: 1.5rem;
     outline: none;
     font-weight: bold;
+}
+
+.btn-login-s{
+    text-align: center;
+    padding-top: 0.7rem;
+    padding: -0.96rem;
+}
+
+.btn-login-s>button{
+    border: none;
+    cursor: pointer;
+    background-color:rgba(183, 183, 183, 1);
+    font-size: 1rem;
+    font-family: roboto;
+    border-radius: 5px;
+    color: black;
+    width: 4rem;
+    height: 1.5rem;
+    outline: none;
+    font-weight: bold;
+}
+
+.btn-login{
+    text-align: center;
+    padding-top: 1rem;
+    /* margin-bottom: -0.96rem; */
+}
+
+.btn-login>a{
+    border: none;
+    cursor: pointer;
+    background-color:rgba(183, 183, 183, 1);
+    font-size: 1rem;
+    font-family: roboto;
+    border-radius: 5px;
+    color: black;
+    /* width: 6rem; */
+    /* height: 5rem; */
+    /* outline: none; */
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    text-decoration: none;
 }
 
 .change-p{
@@ -813,7 +858,7 @@ select{
 
     .order{
         margin-left: 47rem;
-        margin-top: -3rem;
+        margin-top: 2rem;
     }
 
     .boat{
@@ -835,7 +880,7 @@ select{
 
     .order{
         margin-left: 0rem;
-        margin-top: -3rem;
+        margin-top: 2rem;
     }
 
     .boat{
@@ -899,7 +944,7 @@ select{
         width: 12.5rem;
         border-radius: 10px;
         margin-left: 0rem;
-        margin-top: -3rem;
+        margin-top: 2rem;
     }
     
     .order-s>select{
@@ -930,12 +975,36 @@ select{
     .btn-order{
         text-align: center;
         padding-top: 0.7rem;
-        margin-bottom: -0.96rem;
+        padding-bottom: -0.96rem;
     }
     
     .btn-order>button{
         font-size: 0.8rem;
         width: 5rem;
+        height: 1.4rem;
+    }
+
+    .btn-login-s{
+        text-align: center;
+        padding-top: 0.7rem;
+        padding-bottom: -0.96rem;
+    }
+    
+    .btn-login-s>button{
+        font-size: 0.8rem;
+        width: 3.5rem;
+        height: 1.4rem;
+    }
+
+    .btn-login{
+        text-align: center;
+        padding-top: 1rem;
+        padding: -0.96rem;
+    }
+    
+    .btn-login>a{
+        font-size: 0.8rem;
+        width: 3.3rem;
         height: 1.4rem;
     }
     /* end of order page */
