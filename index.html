@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sterling Party</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./bar.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 </head>
 <style>
     *{
@@ -13,9 +15,24 @@
     }
 </style>
 <body>
-    <div class="bags">
+    <!-- <div class="bags">
         <a href="./regis.html"><img class="bag" src="./Assets/main/lognreg.png" alt="bag"></a>
+    </div> -->
+
+    <!-- drop menu -->
+    <div class="bar-conf">
+        <div class="menu-conf">
+            <div><p>Menu</p></div>
+        </div>
+        <div id="droped" class="menu-conf1">
+            <div class="contdrop">
+                <a class="a" href="./login.html">Login</a>
+                <a class="a" href="./regis.html">Register</a>
+            </div>
+        </div>
     </div>
+    <!-- end of drop menu -->
+
     <div class="overall">
         <!-- main -->
         <!-- bag -->
@@ -257,6 +274,7 @@
     
         
     </div>
+    <script src="./bar.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>

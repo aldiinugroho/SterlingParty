@@ -842,6 +842,11 @@ select{
     font-family: roboto;
     src: url(./Assets/main/roboto.light.ttf);
 }
+
+@font-face{
+    font-family: banger;
+    src: url(./Assets/main/bangers.regular.ttf);
+}
 /* end of font face */
 
 
