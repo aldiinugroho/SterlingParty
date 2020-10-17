@@ -21,12 +21,14 @@
 
 .menu-conf1{
     display: none;
-    width: inherit;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
 }
 
 .contdrop{
     /* width: inherit; */
-    position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -35,6 +37,7 @@
     width: inherit;
     font-family: banger;
 }
+
 
 .contdrop>a{
     text-align: center;
